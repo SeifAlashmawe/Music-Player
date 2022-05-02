@@ -1,0 +1,12 @@
+package com.seifalashmawy.MusicPlayer.interfaces;
+
+import androidx.annotation.ColorInt;
+
+/**
+ * @author Aidan Follestad (afollestad)
+ */
+public interface PaletteColorHolder {
+
+    @ColorInt
+    int getPaletteColor();
+}
